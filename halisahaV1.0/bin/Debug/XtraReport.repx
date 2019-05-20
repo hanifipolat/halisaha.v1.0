@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="17.1.3.0" Ref="1" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="XtraReport" Margins="8, 0, 39, 30" PageWidth="850" PageHeight="1100" Version="17.1" DataSource="#Ref-0">
+  <FormattingRuleSheet>
+    <Item1 Ref="2" Name="formattingRule1">
+      <Formatting Ref="3" BorderStyle="Inset" BorderColor="Black" Sides="All" StringFormat="Near;Near;0;None;Character;Default" />
+    </Item1>
+  </FormattingRuleSheet>
+  <Bands>
+    <Item1 Ref="4" ControlType="TopMarginBand" Name="topMarginBand1" HeightF="39.0000038">
+      <Controls>
+        <Item1 Ref="5" ControlType="XRLabel" Name="label8" Text="Adı Soyadı" SizeF="100,23" LocationFloat="0, 6.00001" Font="Times New Roman, 12pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="6" UseFont="false" />
+        </Item1>
+        <Item2 Ref="7" ControlType="XRLabel" Name="label14" Text="Telefon Numarası" SizeF="137.166687,23" LocationFloat="704.8333, 5.99999428" Font="Times New Roman, 12pt, style=Bold" BackColor="Transparent" Padding="2,2,0,0,100">
+          <StylePriority Ref="8" UseFont="false" UseBackColor="false" />
+        </Item2>
+        <Item3 Ref="9" ControlType="XRLabel" Name="label13" Text="TC Kimlik" SizeF="100,23" LocationFloat="594.4166, 5.99999428" Font="Times New Roman, 12pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="10" UseFont="false" />
+        </Item3>
+        <Item4 Ref="11" ControlType="XRLabel" Name="label10" Text="Tarih" SizeF="151.708267,23" LocationFloat="199.999969, 5.99999428" Font="Times New Roman, 12pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="12" UseFont="false" />
+        </Item4>
+        <Item5 Ref="13" ControlType="XRLabel" Name="label9" Text="Takım Adı" SizeF="100,23" LocationFloat="100.000008, 5.99999428" Font="Times New Roman, 12pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="14" UseFont="false" />
+        </Item5>
+        <Item6 Ref="15" ControlType="XRLabel" Name="label11" Text="Saat" SizeF="100,23" LocationFloat="351.708221, 5.99999428" Font="Times New Roman, 12pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="16" UseFont="false" />
+        </Item6>
+        <Item7 Ref="17" ControlType="XRLabel" Name="label12" Text="Mail" SizeF="132.291718,23" LocationFloat="451.708282, 5.99999428" Font="Times New Roman, 12pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="18" UseFont="false" />
+        </Item7>
+      </Controls>
+    </Item1>
+    <Item2 Ref="19" ControlType="DetailBand" Name="detailBand1" HeightF="28.125">
+      <Controls>
+        <Item1 Ref="20" ControlType="XRLabel" Name="label7" Text="label7" SizeF="100,23" LocationFloat="704.8334, 0" Padding="2,2,0,0,100">
+          <DataBindings>
+            <Item1 Ref="21" FormatString="{0:(###) ### - ####}" PropertyName="Text" DataMember="telefon" />
+          </DataBindings>
+        </Item1>
+        <Item2 Ref="22" ControlType="XRLabel" Name="label6" Text="label6" SizeF="100,23" LocationFloat="594.4166, 0" Padding="2,2,0,0,100">
+          <FormattingRuleLinks>
+            <Item1 Ref="23" Value="#Ref-2" />
+          </FormattingRuleLinks>
+          <DataBindings>
+            <Item1 Ref="24" PropertyName="Text" DataMember="tc" />
+          </DataBindings>
+        </Item2>
+        <Item3 Ref="25" ControlType="XRLabel" Name="label2" Text="label2" SizeF="100,25" LocationFloat="351.708282, 0" Padding="2,2,0,0,100">
+          <DataBindings>
+            <Item1 Ref="26" PropertyName="Text" DataMember="saat" />
+          </DataBindings>
+        </Item3>
+        <Item4 Ref="27" ControlType="XRLabel" Name="label5" Text="label5" SizeF="132.291687,23" LocationFloat="451.708282, 2.000014" Padding="2,2,0,0,100">
+          <FormattingRuleLinks>
+            <Item1 Ref="28" Value="#Ref-2" />
+          </FormattingRuleLinks>
+          <DataBindings>
+            <Item1 Ref="29" PropertyName="Text" DataMember="mail" />
+          </DataBindings>
+        </Item4>
+        <Item5 Ref="30" ControlType="XRLabel" Name="label4" Text="label4" SizeF="151.708267,23" LocationFloat="200.000015, 2.000014" Padding="2,2,0,0,100">
+          <DataBindings>
+            <Item1 Ref="31" FormatString="{0:d MMMM yyyy dddd}" PropertyName="Text" DataMember="tarih" />
+          </DataBindings>
+        </Item5>
+        <Item6 Ref="32" ControlType="XRLabel" Name="label3" Text="label3" SizeF="100,23" LocationFloat="100, 0" Padding="2,2,0,0,100">
+          <DataBindings>
+            <Item1 Ref="33" PropertyName="Text" DataMember="takim_adi" />
+          </DataBindings>
+        </Item6>
+        <Item7 Ref="34" ControlType="XRLabel" Name="label1" Text="label1" SizeF="100,23" LocationFloat="0, 0" Padding="2,2,0,0,100">
+          <DataBindings>
+            <Item1 Ref="35" PropertyName="Text" DataMember="ad_soyad" />
+          </DataBindings>
+        </Item7>
+      </Controls>
+    </Item2>
+    <Item3 Ref="36" ControlType="BottomMarginBand" Name="bottomMarginBand1" HeightF="30.208334" />
+  </Bands>
+  <StyleSheet>
+    <Item1 Ref="37" Name="controlStyle1" BorderStyle="Inset" Sides="All" StringFormat="Near;Near;0;None;Character;Default" />
+  </StyleSheet>
+  <ObjectStorage>
+    <Item1 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v17.1" Ref="0" Content="~Xtra#NULL" Type="System.Data.DataTable" />
+  </ObjectStorage>
+</XtraReportsLayoutSerializer>

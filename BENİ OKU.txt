@@ -1,0 +1,7 @@
+1- SQL Server 2017 yi kurun
+2- Microsoft SQL server Managment Studio 2017 yi kurun.
+3- veri tabaný klasöründeki dosyalarý C:\Program Files\Microsoft SQL Server\MSSQL14.MSSQLSERVER\MSSQL\DATA kýsmýna kopyalayýn(bilgisayarlarda farklýlýk gösterebilir). 
+4- Managment studio ya girin ve Klasördeki veritabaný dosyasýný Databases e sað týk \attach \add  ve kopyaladýðýnýz veri tabaný dosyasýný seçin OK butonuna basýn
+5- veritabaniyolu metin belgesinin içine girin ve Data Source kýsmýna kendi servername nizi yazýnýz (Managment Studio ya girdiginiz servername ve genelde bilgisayar adý)
+6- HalisahaV1.0 ý açabilirsiniz.
+7- Kullanýcý Adý: admin þifre: 1234
